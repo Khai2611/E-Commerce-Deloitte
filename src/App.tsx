@@ -10,32 +10,32 @@ import Title from './components/orderHistory/Title';
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <AddToCart></AddToCart>,
+        element: <AddToCart />,
         children: [],
     },
     {
         path: '/Checkout',
-        element: <CheckoutForm></CheckoutForm>,
+        element: <CheckoutForm />,
     },
     {
         path: '/Login',
-        element: <Login></Login>,
+        element: <Login />,
     },
     {
         path: '/Register',
-        element: <Register></Register>,
+        element: <Register />,
     },
     {
         path: '/History',
-        element: <ProductList></ProductList>,
+        element: <ProductList />,
     },
     {
         path: '/Dropdown',
-        element: <Dropdown></Dropdown>,
+        element: <Dropdown />,
     },
     {
         path: '/Title',
-        element: <Title></Title>,
+        element: <Title />,
     },
 ]);
 function App() {
